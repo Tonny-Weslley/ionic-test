@@ -5,7 +5,7 @@
         "placa": "ABC-1234",
         "modelo": "Fiat Uno",
         "codigo": "123456",   
-        "tipo": "carro", 
+        "tipo": 0, 
         "fabricante": "Fiat"
     },
     {
@@ -13,9 +13,16 @@
         "placa": "ABC-1235",
         "modelo": "Neobus",
         "codigo": "123457",
-        "tipo": "onibus",
+        "tipo": 2,
         "fabricante": "Wolksvagem"
+    },
+    {
+        "id": 3,
+        "placa": "ABC-1236",
+        "modelo": "Fiat Ducato",
+        "codigo": "123458",
+        "tipo": 1,
+        "fabricante": "Fiat"
     }
-
 
 ]

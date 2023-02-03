@@ -6,7 +6,128 @@
     height: 6vh;
     width: 100%;
     padding: 0 2vw;
+    color: white;
 }
 .abastecimento-header p{
     margin-left: 1rem;
 }
+
+.selecionarButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ion-color-primary);
+    height: 6vh;
+    width: 100%;
+    padding: 0 6vw;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+.selecionarButton:focus{
+    outline: none;
+}
+
+.selecionarButton::part(icon){
+    display: none;
+}
+
+.selecionarButton placeholder{
+    color: white;
+
+}
+
+.abastecimento-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 2vw;
+    color: white;
+}
+
+.input-div{
+    display: flex;
+    margin: 2vh 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    border-radius: 0.5rem;
+    padding: 0 2vw;
+    background: #FFFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo{
+    color: var(--ion-color-primary);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.tokenImage{
+    width: 30vw;
+    margin-right: 1rem;
+}
+
+.unidade{
+    color: black;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.inputs-form{
+    margin-top: 2vh;
+}
+
+.datetime{
+    margin-top: 2vh;
+}
+
+.input-value{
+    width: 30vw;
+    height: 100%;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    color: black;
+    text-align: end;
+}
+
+.input-value:focus{
+    outline: none;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: fit-content;
+    height: 100%;
+}
+
+.selecionarButtonDonw{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #FFFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 6vh;
+    width: 100%;
+    padding: 0 6vw;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.submit-button {
+    background-color: var(--ion-color-primary);
+    margin-top: 2vh;
+    padding: 1.5vh 15vw;
+    font-size: large;
+    border-radius: 0.5rem;
+    font-weight: 300;
+  }

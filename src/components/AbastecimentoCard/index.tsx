@@ -33,7 +33,7 @@ const AbastecimentoCard = (abastecimento: any) => {
             <div className="abastecimento-card-info">
                 <p className="abastecimento-card-info-placa">Placa: {veiculo?.placa}</p>
                 <p className="abastecimento-card-info-sub">{abastecimentoModel.horario}</p>
-                <p className="abastecimento-card-info-sub">{abastecimentoModel.km_rodado}</p>
+                <p className="abastecimento-card-info-sub">{abastecimentoModel.km_rodado} Km</p>
                 <p className="abastecimento-card-info-valor">R$ {abastecimentoModel.valor.toLocaleString("pt-BR", {
                 maximumFractionDigits: 2,
                 minimumFractionDigits: 2
