@@ -1,7 +1,7 @@
 import { IonPage, useIonRouter } from "@ionic/react";
 import { useState, useEffect } from "react";
 
-import Sair from "../../assets/icons/back.svg";
+import Sair from "../../assets/icons/exit.svg";
 
 import User from "../../mock/user.json"
 
@@ -36,7 +36,7 @@ const Dashboard = () => {
                 <p className="user-info-div-wellcome">Bem vindo</p>
                 <h1 className="user-info-div-name">{username}</h1>
             </div>
-            <a className="abastecer-btn" onClick={ handleAbastecer} >Abastecer</a>
+            <button className="abastecer-btn" onClick={ handleAbastecer} >Abastecer</button>
         </header>
 
         <main className="main">
