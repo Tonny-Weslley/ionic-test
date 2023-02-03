@@ -1,0 +1,42 @@
+.abastecimento-card {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 1rem;
+  margin: 1vh auto;
+  width: 80vw;
+  background: #fffbfb;
+  border: 1px solid rgba(178, 178, 178, 0.2);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.abastecimento-card-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abastecimento-card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+
+.abastecimento-card-info-placa{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.abastecimento-card-info-sub{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #B2B2B2;
+}
+
+.abastecimento-card-info-valor{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--ion-color-primary);
+}

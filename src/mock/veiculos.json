@@ -1,0 +1,21 @@
+[
+
+    {
+        "id": 1,
+        "placa": "ABC-1234",
+        "modelo": "Fiat Uno",
+        "codigo": "123456",   
+        "tipo": "carro", 
+        "fabricante": "Fiat"
+    },
+    {
+        "id": 2,
+        "placa": "ABC-1235",
+        "modelo": "Neobus",
+        "codigo": "123457",
+        "tipo": "onibus",
+        "fabricante": "Wolksvagem"
+    }
+
+
+]
